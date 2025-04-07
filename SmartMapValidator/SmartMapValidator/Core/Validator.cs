@@ -25,7 +25,7 @@ namespace SmartMapValidator.Core
                     var value = property.GetValue(dto);
                     if (value == null || (value is string str && string.IsNullOrWhiteSpace(str)))
                     {
-                        validationErrors.Add($"{property.Name} sahəsi boş ola bilməz.");
+                        validationErrors.Add($"{property.Name} this field can't be empty ");
                     }
                 }
 
@@ -43,7 +43,7 @@ namespace SmartMapValidator.Core
                         {
                             if (valueComparable.CompareTo(minValue) < 0 || valueComparable.CompareTo(maxValue) > 0)
                             {
-                                validationErrors.Add($"{property.Name} sahəsi {rangeAttribute.Minimum} ilə {rangeAttribute.Maximum} arasında olmalıdır.");
+                                validationErrors.Add($"The {property.Name} field must be between {rangeAttribute.Minimum} and {rangeAttribute.Maximum}.");
                             }
                         }
                     }

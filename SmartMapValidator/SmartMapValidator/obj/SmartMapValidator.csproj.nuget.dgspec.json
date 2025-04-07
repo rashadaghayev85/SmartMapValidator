@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator.csproj": {}
+    "C:\\Users\\Rashad\\onedrive\\desktop\\smartmapvalidator\\smartmapvalidator\\SmartMapValidator\\SmartMapValidator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator.csproj": {
+    "C:\\Users\\Rashad\\onedrive\\desktop\\smartmapvalidator\\smartmapvalidator\\SmartMapValidator\\SmartMapValidator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator.csproj",
+        "projectUniqueName": "C:\\Users\\Rashad\\onedrive\\desktop\\smartmapvalidator\\smartmapvalidator\\SmartMapValidator\\SmartMapValidator.csproj",
         "projectName": "SmartMapValidator",
-        "projectPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator.csproj",
+        "projectPath": "C:\\Users\\Rashad\\onedrive\\desktop\\smartmapvalidator\\smartmapvalidator\\SmartMapValidator\\SmartMapValidator.csproj",
         "packagesPath": "C:\\Users\\Rashad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\SmartMapValidator\\SmartMapValidator\\obj\\",
+        "outputPath": "C:\\Users\\Rashad\\onedrive\\desktop\\smartmapvalidator\\smartmapvalidator\\SmartMapValidator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rashad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

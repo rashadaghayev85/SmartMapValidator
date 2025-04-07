@@ -1,0 +1,12 @@
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\bin\Release\net8.0\SmartMapValidator.deps.json
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\bin\Release\net8.0\SmartMapValidator.dll
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\bin\Release\net8.0\SmartMapValidator.pdb
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\SmartMapValidator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\SmartMapValidator.AssemblyInfoInputs.cache
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\SmartMapValidator.AssemblyInfo.cs
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\SmartMapValidator.csproj.CoreCompileInputs.cache
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\SmartMapValidator.sourcelink.json
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\SmartMapValidator.dll
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\refint\SmartMapValidator.dll
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\SmartMapValidator.pdb
+C:\Users\Rashad\onedrive\desktop\smartmapvalidator\smartmapvalidator\SmartMapValidator\obj\Release\net8.0\ref\SmartMapValidator.dll
