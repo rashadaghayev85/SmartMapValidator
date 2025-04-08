@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SmartMapValidator</id>
+    <version>1.2.2</version>
+    <authors>Rashad Aghayev</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/rashadaghayev85/SmartMapValidator</projectUrl>
+    <description>A Smart Mapper and Validator package</description>
+    <tags>smart map, validation, dto</tags>
+    <repository type="git" url="https://github.com/rashadaghayev85" commit="e32f09c2a556b05caaac32f60bab5a6065b92132" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Rashad\OneDrive\Desktop\SmartMapValidator\SmartMapValidator\SmartMapValidator\bin\Release\net8.0\SmartMapValidator.dll" target="lib\net8.0\SmartMapValidator.dll" />
+    <file src="C:\Users\Rashad\OneDrive\Desktop\SmartMapValidator\SmartMapValidator\SmartMapValidator\README.md" target="README.md" />
+  </files>
+</package>

@@ -1,23 +1,28 @@
 ﻿# SmartMapValidator
 
-🔧 **SmartMapValidator** is a lightweight, attribute-based object mapping and validation library for C#. It helps you map DTOs to entities and validate properties using simple custom attributes.
+🔧 **SmartMapValidator** is a lightweight, attribute-based object mapping and validation library for C#. It helps you map DTOs to entities and validate object properties using simple custom attributes.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Custom mapping with `[MapTo]` attribute  
-- 🚫 Skip mapping with `[MapIgnore]` attribute  
-- 📋 Built-in validation support with `[Required]` and `[Range]` attributes  
-- 🧩 Modular and extensible architecture  
+- ✅ **Attribute-based mapping** with `[MapTo]`
+- 🚫 **Ignore properties** with `[MapIgnore]`
+- 📋 **Built-in validation attributes**:
+  - `[Required]` — ensures field is not null or empty
+  - `[Range(min, max)]` — numeric range validation
+  - `[Regex(pattern)]` — validates against a regular expression
+  - `[MinLength(length)]` / `[MaxLength(length)]` — string length limits
+- 🔄 Nullable type support (e.g., `int?`, `DateTime?`)
+- 🧩 Modular, extensible, clean architecture
 
 ---
 
 ## 📦 Installation
 
-You can use it locally as a class library or package it as a NuGet package.
+You can use the library locally as a class library, or publish it to NuGet.
 
-### 🔹 Add project reference manually:
+### 🔹 Add as a project reference
 
 ```bash
 dotnet add reference ../SmartMapValidator/SmartMapValidator.csproj
@@ -27,7 +32,7 @@ dotnet add reference ../SmartMapValidator/SmartMapValidator.csproj
 
 ## 🧪 Usage Example
 
-### Define a DTO and Entity:
+### DTO and Entity Definitions
 
 ```csharp
 public class UserDto
@@ -35,9 +40,16 @@ public class UserDto
     [Required]
     public string Name { get; set; }
 
-    [MapTo("UserAge")]
     [Range(18, 99)]
-    public int Age { get; set; }
+    [MapTo("UserAge")]
+    public int? Age { get; set; }
+
+    [Regex(@"^\S+@\S+\.\S+$")]
+    public string Email { get; set; }
+
+    [MinLength(6)]
+    [MaxLength(20)]
+    public string Username { get; set; }
 
     [MapIgnore]
     public string Secret { get; set; }
@@ -47,32 +59,43 @@ public class UserEntity
 {
     public string Name { get; set; }
     public int UserAge { get; set; }
+    public string Email { get; set; }
+    public string Username { get; set; }
 }
 ```
 
-### Mapping:
+---
+
+### Mapping
 
 ```csharp
 var dto = new UserDto
 {
-    Name = "Aysel",
-    Age = 25,
-    Secret = "Hidden"
+    Name = "Rashad",
+    Age = 28,
+    Email = "rashad@example.com",
+    Username = "rashad_28",
+    Secret = "TopSecret"
 };
 
 var entity = SmartMap.Map<UserDto, UserEntity>(dto);
 
-// entity.Name -> "Aysel"
-// entity.UserAge -> 25
+// entity.Name -> "Rashad"
+// entity.UserAge -> 28
+// entity.Email -> "rashad@example.com"
 ```
 
-### Validation:
+---
+
+### Validation
 
 ```csharp
 var invalidDto = new UserDto
 {
     Name = "",
-    Age = 10
+    Age = 15,
+    Email = "invalid_email",
+    Username = "abc"
 };
 
 var result = SmartMap.Validate(invalidDto);
@@ -81,53 +104,33 @@ if (!result.IsValid)
 {
     Console.WriteLine(result.ToString());
     // Output:
-    // Name field cannot be empty.
+    // Name is required.
     // Age must be between 18 and 99.
+    // Email format is invalid.
+    // Username must be at least 6 characters.
 }
-```
-
----
-
-## 🧱 Project Structure
-
-```
-SmartMapValidator/
-├── Attributes/
-│   ├── MapToAttribute.cs
-│   ├── MapIgnoreAttribute.cs
-├── Core/
-│   ├── Mapper.cs
-│   ├── Validator.cs
-│   ├── ValidationResult.cs
-├── Interfaces/
-│   ├── IMapDto.cs
-├── SmartMap.cs
-├── SmartMapValidator.csproj
 ```
 
 ---
 
 ## 🛠️ Planned Features
 
-- [ ] `[Regex]` and `[StringLength]` validation attributes  
-- [ ] Nested object mapping support  
-- [ ] Optional AutoMapper integration  
+- [ ] Nested object mapping
+- [ ] Collection support (e.g., `List<T>`)
+- [ ] AutoMapper integration
 
 ---
 
 ## 📄 License
 
-This project is open-source and licensed under the MIT License.
+Licensed under the MIT License.
 
 ---
 
 ## ✨ Author
 
-Created by **Rashad Aghayev**  
-Contributions, pull requests, and suggestions are welcome! 😊
+Created with  by **Rashad Aghayev**  
+Pull requests and contributions are always welcome!
 
-## 📫 Contact
-
-If you have any questions or suggestions, feel free to contact me at:  
 📧 rashadaghayev85@gmail.com  
 📱 +994 70 818 17 00
