@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\smartmapvalidator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|c:\\users\\rashad\\onedrive\\desktop\\smartmapvalidator\\smartmapvalidator\\smartmapvalidator\\smartmapvalidator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\smartmapvalidator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|c:\\users\\rashad\\onedrive\\desktop\\smartmapvalidator\\smartmapvalidator\\smartmapvalidator\\core\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\core\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\smartmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\smartmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\core\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\core\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\interfaces\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\interfaces\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\core\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\core\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\core\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\core\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\core\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\core\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\attributes\\maptoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\attributes\\mapignoreattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\attributes\\mapignoreattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\interfaces\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\interfaces\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\smartmapvalidator\\smartmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E084A774-A1DF-44D2-A371-3CBE5E10FD78}|SmartMapValidator\\SmartMapValidator.csproj|solutionrelative:smartmapvalidator\\smartmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,26 +56,26 @@
               "RelativeDocumentMoniker": "SmartMapValidator\\SmartMapValidator.csproj",
               "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator.csproj",
               "RelativeToolTip": "SmartMapValidator\\SmartMapValidator.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-07T05:51:01.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "SmartMap.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\SmartMap.cs",
               "RelativeDocumentMoniker": "SmartMapValidator\\SmartMap.cs",
               "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\SmartMap.cs",
               "RelativeToolTip": "SmartMapValidator\\SmartMap.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAgwEEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T15:40:56.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "IDto.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Interfaces\\IDto.cs",
               "RelativeDocumentMoniker": "SmartMapValidator\\Interfaces\\IDto.cs",
@@ -87,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ValidationResult.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Core\\ValidationResult.cs",
               "RelativeDocumentMoniker": "SmartMapValidator\\Core\\ValidationResult.cs",
@@ -99,32 +99,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Validator.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Core\\Validator.cs",
               "RelativeDocumentMoniker": "SmartMapValidator\\Core\\Validator.cs",
               "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Core\\Validator.cs",
               "RelativeToolTip": "SmartMapValidator\\Core\\Validator.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAiwGkAAAA5AAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:39:31.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:39:31.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Mapper.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Core\\Mapper.cs",
               "RelativeDocumentMoniker": "SmartMapValidator\\Core\\Mapper.cs",
               "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Core\\Mapper.cs",
               "RelativeToolTip": "SmartMapValidator\\Core\\Mapper.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBcAAAA8AAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T15:39:17.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MapIgnoreAttribute.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Attributes\\MapIgnoreAttribute.cs",
               "RelativeDocumentMoniker": "SmartMapValidator\\Attributes\\MapIgnoreAttribute.cs",
@@ -136,13 +135,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MapToAttribute.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Attributes\\MapToAttribute.cs",
               "RelativeDocumentMoniker": "SmartMapValidator\\Attributes\\MapToAttribute.cs",
               "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\SmartMapValidator\\SmartMapValidator\\SmartMapValidator\\Attributes\\MapToAttribute.cs",
               "RelativeToolTip": "SmartMapValidator\\Attributes\\MapToAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T15:38:45.486Z"
             }

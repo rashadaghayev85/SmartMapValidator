@@ -6,7 +6,7 @@
 		<Description>A Smart Mapper and Validator package</Description>
 		<PackageTags>mapping, validation, dto, auto-mapping</PackageTags>
 		<PackageId>SmartMapValidator</PackageId>
-		<Version>1.2.0</Version>
+		<Version>1.2.1</Version>
 	
 		<Authors>Rashad Aghayev</Authors>
 		
@@ -22,6 +22,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		
 		<Nullable>enable</Nullable>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		
 	
 	</PropertyGroup>
 
@@ -29,6 +31,9 @@
 	
 		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
 
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
